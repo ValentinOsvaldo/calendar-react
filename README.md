@@ -1,13 +1,14 @@
 # Calendar - React App
 
-## Clona este repositorio
-
 ```bash
-git clone https://github.com/ValentinOsvaldo/calendar-react.git
+# Clonar el repositorio
+$ git clone https://github.com/ValentinOsvaldo/calendar-react.git
+
+# Instala las dependencias
+$ yarn
 ```
 
-## Instala las dependencias
+## Development pasos
 
-```bash
-yarn
-```
+1. Renombrar el archivo .env.template por .env
+2. Hacer los cambios respectivos

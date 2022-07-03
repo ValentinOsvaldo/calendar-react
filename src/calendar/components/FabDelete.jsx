@@ -4,16 +4,10 @@ export const FabDelete = () => {
   const { startDeleteEvent, activeEvent } = useCalendarStore();
   const { isDateModalOpen } = useUiStore();
 
-  console.log(!isDateModalOpen)
-
-  const handelClickDelete = () => {
-    startDeleteEvent();
-  };
-
   return (
     <button
       className="btn btn-danger fab-danger"
-      onClick={handelClickDelete}
+      onClick={startDeleteEvent}
       style={{
         display: activeEvent !== null && !isDateModalOpen ? '' : 'none',
       }}
